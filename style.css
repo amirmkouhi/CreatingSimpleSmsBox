@@ -1,0 +1,56 @@
+@font-face {
+    font-family: vazir;
+    src: url(fonts/Vazir.woff);
+}
+
+*{
+    font-family: vazir;
+    background-color: #f2f2f2;
+    font-size: 1.2rem;
+}
+
+.container{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#message{
+    text-align: right;
+    width: 400px;
+    background-color:#fff9b0;
+    color: #aa2b1d;
+    font-size: 1.2rem;
+    border: 2px solid #aa2b1d;
+    border-radius: 5px;
+}
+
+.container p{
+    margin-top: 30px;
+}
+
+#num-of-sms{
+    color: #D32F2F;
+    text-decoration: underline;
+}
+
+#remain-chars{
+    color: #D32F2F;
+}
+
+#btn-send{
+    background-color: #B71C1C;
+    color: #fff;
+    margin-top: 25px;
+    padding: 6px 25px;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+#btn-send:active{
+    transform: translate(2px, 2px);
+}
